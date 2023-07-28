@@ -1,0 +1,24 @@
+{
+  "name": "@hypersign-protocol/domain-linkage-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+ 
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@digitalbazaar/ed25519-signature-2020": "^5.2.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
+    "@digitalbazaar/vc": "^6.0.1",
+    "axios": "^1.4.0",
+    "base58-universal": "^2.0.0",
+    "jsonld": "^8.2.0"
+  }
+}
